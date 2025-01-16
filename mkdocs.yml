@@ -1,3 +1,9 @@
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://furries.club/@anebix
+      name: Anebix on furries.club
 site_name: Anebix World
 theme:
   name: material
