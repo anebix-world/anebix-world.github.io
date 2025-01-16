@@ -12,6 +12,15 @@ extra:
     - icon: fontawesome/brands/pinterest
       link: https://www.pinterest.com/anebixworld
       name: Anebix Pinterest
+
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@anebix
+      name: Anebix YouTube
+
+    - icon: fontawesome/brands/pixiv
+      link: https://www.pixiv.net/en/users/108714886
+      name: Anebix Pixiv
+
 site_name: Anebix World
 theme:
   name: material
