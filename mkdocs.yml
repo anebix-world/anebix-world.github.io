@@ -1,9 +1,17 @@
 extra:
   generator: false
   social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/tNncEMhCqZ
+      name: Bixie Bash Discord server
+
     - icon: fontawesome/brands/mastodon
       link: https://furries.club/@anebix
-      name: Anebix on furries.club
+      name: Anebix Mastodon at furries.club
+
+    - icon: fontawesome/brands/pinterest
+      link: https://www.pinterest.com/anebixworld
+      name: Anebix Pinterest
 site_name: Anebix World
 theme:
   name: material
