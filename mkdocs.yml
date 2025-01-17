@@ -1,5 +1,38 @@
+site_name: Anebix World
+repo_url: https://github.com/anebix-world/anebix-world.github.io
+repo_name: anebix-world/anebix-world.github.io
+
+theme:
+  icon:
+    repo: fontawesome/brands/github
+
+  name: material
+  font:
+    text: Atkinson Hyperlegible
+  features:
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+
+    - toc.integrate
+
+    - header.autohide
+
+    - announce.dismiss
+
+plugins:
+
+
+
 extra:
-  generator: false
+    version:
+        provider: mike
+    generator: false
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.com/invite/tNncEMhCqZ
@@ -7,20 +40,32 @@ extra:
 
     - icon: fontawesome/brands/mastodon
       link: https://furries.club/@anebix
-      name: Anebix Mastodon at furries.club
+      name: Mastodon at furries.club
+
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/anebix_world
+      name: X / Twitter
 
     - icon: fontawesome/brands/pinterest
       link: https://www.pinterest.com/anebixworld
-      name: Anebix Pinterest
+      name: Pinterest
+
+    - icon: fontawesome/brands/lastfm
+      link: https://www.last.fm/user/anebix
+      name: Last.fm
 
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@anebix
-      name: Anebix YouTube
+      name: Youtube
+
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/anebix.world/
+      name: Instagram
 
     - icon: fontawesome/brands/pixiv
       link: https://www.pixiv.net/en/users/108714886
-      name: Anebix Pixiv
+      name: Pixiv
 
-site_name: Anebix World
-theme:
-  name: material
+    - icon: fontawesome/brands/deviantart
+      link: https://www.deviantart.com/anebix
+      name: Deviantart
