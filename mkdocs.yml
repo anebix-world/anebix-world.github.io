@@ -18,54 +18,42 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.expand
-
     - toc.integrate
-
     - header.autohide
-
     - announce.dismiss
 
 plugins:
 
 
-
 extra:
-    version:
-        provider: mike
-    generator: false
+  version:
+    provider: mike
+  generator: false
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.com/invite/tNncEMhCqZ
       name: Bixie Bash Discord server
-
     - icon: fontawesome/brands/mastodon
       link: https://furries.club/@anebix
       name: Mastodon at furries.club
-
     - icon: fontawesome/brands/twitter
       link: https://x.com/anebix_world
       name: X / Twitter
-
     - icon: fontawesome/brands/pinterest
       link: https://www.pinterest.com/anebixworld
       name: Pinterest
-
     - icon: fontawesome/brands/lastfm
       link: https://www.last.fm/user/anebix
       name: Last.fm
-
     - icon: fontawesome/brands/youtube
       link: https://youtube.com/@anebix
       name: Youtube
-
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/anebix.world/
       name: Instagram
-
     - icon: fontawesome/brands/pixiv
       link: https://www.pixiv.net/en/users/108714886
       name: Pixiv
-
     - icon: fontawesome/brands/deviantart
       link: https://www.deviantart.com/anebix
       name: Deviantart
