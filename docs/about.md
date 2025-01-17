@@ -1,4 +1,4 @@
-# About Me (Anebix)
+# About Me
 
 I'm Anebix.
 
