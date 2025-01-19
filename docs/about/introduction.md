@@ -1,5 +1,3 @@
-# About Me
-
 I'm Anebix.
 
 I go by a few names, least commonly Ane, but mostly Neb, Bix, Nebby, Bixie, and the like. You can call me any of those if we're friends, although if we've just met, please ask! I'll probably let you use one of my shortnames anyway :P
