@@ -1,7 +1,7 @@
 # Home
 ## Welcome!
 
-Go [here](./about/anebix.md) for more information about me.
+Go [here](./about.md) for more information about me.
 
 Check the botton of the page at the footer for more links.
 
