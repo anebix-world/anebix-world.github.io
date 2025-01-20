@@ -1,10 +1,16 @@
+.md-grid {
+    max-width: 100%;
+}
+
 [data-md-color-scheme="slate"][data-md-color-primary="indigo"]{
-  --md-primary-fg-color:        #00ffff;
+  --md-primary-fg-color: 0, 255, 255; /* Manually convert #00ffff to RGB (0, 255, 255) */
+  --md-accent-fg-color: rgba(var(--md-primary-fg-color), 0.75);
   --md-primary-fg-color--light: #f00;
   --md-primary-fg-color--dark:  #008080;
   --md-typeset-a-color:         #00ffff;
   --md-default-bg-color:        #000000;
   --md-header:                  #00ffff;
+  --md-typeset-color:     #ffffff;
 
   .md-banner {
     background-color:           #000000;
@@ -14,6 +20,11 @@
   .md-header {
   --md-primary-fg-color:        #000000;
   --md-primary-bg-color:        #00ffff;
+  }
+
+  .md-nav__link--passed {
+
+
   }
 
   .md-footer, .md-footer-meta {
@@ -27,5 +38,7 @@
       color: #fff;
     }
   }
+
+
 
 }
