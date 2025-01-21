@@ -1,37 +1,55 @@
 .md-grid {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-[data-md-color-scheme="slate"][data-md-color-primary="indigo"]{
-  --md-primary-fg-color: 0, 255, 255; /* Manually convert #00ffff to RGB (0, 255, 255) */
-  --md-accent-fg-color: rgba(var(--md-primary-fg-color), 0.75);
+[data-md-color-scheme="slate"][data-md-color-primary="indigo"] {
+
+  .md-nav--primary .md-nav__title{
+  --md-shadow-z1: none !important;
+  --md-shadow-z2: none !important;
+  --md-shadow-z3: none !important;
+  box-shadow: none !important;
+  }
+  --var-cyan: 0, 255, 255;
+  --var-black: 0, 0, 0;
+  --var-grey-128: 128, 128, 128;
+  --var-grey-64: 64, 64, 64;
+  --var-grey-32: 32, 32, 32;
+  --md-primary-fg-color:        rgba(var(--var-cyan), 1);
+  --md-accent-fg-color:         rgba(var(--var-cyan), 0.75);
   --md-primary-fg-color--light: #f00;
   --md-primary-fg-color--dark:  #008080;
-  --md-typeset-a-color:         #00ffff;
+  --md-typeset-a-color:         rgba(var(--var-cyan), 1);
   --md-default-bg-color:        #000000;
-  --md-header:                  #00ffff;
-  --md-typeset-color:     #ffffff;
+  --md-header:                  rgba(var(--var-cyan), 1);
+  --md-typeset-color:           #ffffff;
 
   .md-banner {
     background-color:           #000000;
-    color:                      #ffff00
+    color:                      #ffff00;
   }
 
   .md-header {
-  --md-primary-fg-color:        #000000;
-  --md-primary-bg-color:        #00ffff;
+    --md-primary-fg-color:      #000000;
+    --md-primary-bg-color:      rgba(var(--var-cyan), 1);
   }
 
-  .md-nav__link--passed {
-
+  .md-sidebar__scrollwrap {
+    --md-accent-fg-color:       rgba(var(--var-cyan), 1);
+    /* background-color:           rgba(var(--var-grey-32), 1); */
 
   }
 
+  .md-sidebar {
+   /* background-color:           rgba(var(--var-grey-32), 1); */
+  }
+  .md-footer {
+  }
   .md-footer, .md-footer-meta {
-    background-color:           #000000;
+    background-color:           rgba(var(--var-grey-32), 1);
     --md-footer-fg-color:       #00ffff;
-    --md-accent-fg-color--transparent:      #ffffff;
-    --md-admonition-fg-color:      #00ffff;
+    --md-accent-fg-color--transparent: #ffffff;
+    --md-admonition-fg-color:   #00ffff;
     color:                      #00ffff;
 
     .md-footer-meta.md-typeset a {
@@ -40,5 +58,5 @@
   }
 
 
-
+/* Close color scheme */
 }
