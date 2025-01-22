@@ -33,7 +33,7 @@ theme:
     text: Atkinson Hyperlegible
   features:
     - navigation.top
-    - navigation.footer
+#    - navigation.footer
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
@@ -41,6 +41,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - toc.integrate
+    - toc.follow
     - header.autohide
     - announce.dismiss
   custom_dir: overrides
