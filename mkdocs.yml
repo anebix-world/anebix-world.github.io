@@ -44,7 +44,15 @@ theme:
     - toc.follow
     - header.autohide
     - announce.dismiss
+    - content.footnote.tooltips
+    - footnotes
   custom_dir: overrides
+
+markdown_extensions:
+  - toc:
+      permalink: "~"
+  - footnotes
+  - md_in_html
 extra_css:
   - stylesheets/extra.css
 
