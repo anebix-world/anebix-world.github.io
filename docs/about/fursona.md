@@ -12,8 +12,8 @@ This is a description about my sona/myself.
 - **Fur**: White
 - **Scales**: Black
 - **Stripes**: Black[^colors/stripes]
-- **Paw Pads**: Fuschia, <span style="color:#ff0080;">#ff0080</span>
-- **Membranes**[^colors/membranes]: Fuschia, <span style="color:#ff0080;">#ff0080</span>
+- **Paw Pads**: Fuschia[^root-color/fuchsia]
+- **Membranes**[^colors/membranes]: Fuschia[^root-color/fuchsia]
 - **
 
 ## Features
@@ -31,3 +31,5 @@ This is a description about my sona/myself.
     Discounted magic energy to change color
 [^colors/membranes]:
     Membranes include internal skins like inside the nose, mouth, etc. See [Wikipedia](https://en.wikipedia.org/wiki/Mucous_membrane)
+[^root-color/fuchsia]:
+    <span style="color:#ff0080;">#ff0080</span>
