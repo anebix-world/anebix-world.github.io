@@ -6,7 +6,7 @@ on:
       - gh-pages
   workflow_dispatch:
       
-concurrency: # Prevent concurrent deploys
+concurrency: 
   group: deploy-to-neocities
   cancel-in-progress: true
 
@@ -15,17 +15,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the gh-pages branch
       - name: Check out gh-pages branch
         uses: actions/checkout@v4
         with:
           ref: gh-pages
 
-      # Step 2: Deploy to Neocities
+
       - name: Deploy to Neocities
         uses: bcomnes/deploy-to-neocities@v3
         with:
             api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
-          dist_dir: . # Use the current directory since it contains the generated HTML
-          cleanup: true # Optional: Remove orphaned files on Neocities
+          dist_dir: . 
+          cleanup: true
           preview_before_deploy: true
