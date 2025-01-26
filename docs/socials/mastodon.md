@@ -1,0 +1,1 @@
+<iframe allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" width="500" height="500" src="https://mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Ffurries.club%2Fusers%2Fanebix&theme=dark&size=100&header=true&replies=false&boosts=false"></iframe>
