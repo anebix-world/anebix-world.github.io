@@ -3,8 +3,9 @@ name: Deploy MkDocs to Neocities
 on:
   push:
     branches:
-      - gh-pages # Trigger only on changes to the gh-pages branch
-
+      - gh-pages
+  workflow_dispatch:
+      
 concurrency: # Prevent concurrent deploys
   group: deploy-to-neocities
   cancel-in-progress: true
@@ -24,7 +25,7 @@ jobs:
       - name: Deploy to Neocities
         uses: bcomnes/deploy-to-neocities@v3
         with:
-          api_key: ${{ secrets.NEOCITIES_API_TOKEN }} # Neocities API token from GitHub secrets
+          api_key: $NEOCITIES_API_TOKEN # Neocities API token from GitHub secrets
           dist_dir: . # Use the current directory since it contains the generated HTML
           cleanup: true # Optional: Remove orphaned files on Neocities
-          preview_before_deploy: true
+          preview_before_deploy: true         preview_before_deploy: true
