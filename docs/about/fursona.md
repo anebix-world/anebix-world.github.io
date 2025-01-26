@@ -14,9 +14,13 @@ This is a description about my sona/myself.
 - **Stripes**: Black[^colors/stripes]
 - **Paw Pads**: Fuschia[^root-color/fuchsia]
 - **Membranes**[^colors/membranes]: Fuschia[^root-color/fuchsia]
+- **Blood**: Fuschia[^root-color/fuchsia]
 - **Nose**: Black
 - **Horns**: White
-- **Eyes**: Fuchsia[^root-color/fuchsia], Purple[^root-color/purple]
+- **Eyes**: Fuchsia[^root-color/fuchsia] and Purple[^root-color/purple] gradient
+- **Teeth**: White
+- **Claws**: Black
+- **Eyebrows**: Black
 
 ## Features
 
@@ -45,4 +49,3 @@ This is a description about my sona/myself.
     <span style="color:#ff0080;">#ff0080</span>
 [^root-color/purple]:
     <span style="color:#8000ff;">#8000ff</span>
-
