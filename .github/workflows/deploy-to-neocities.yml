@@ -28,4 +28,4 @@ jobs:
           api_key: $NEOCITIES_API_TOKEN # Neocities API token from GitHub secrets
           dist_dir: . # Use the current directory since it contains the generated HTML
           cleanup: true # Optional: Remove orphaned files on Neocities
-          preview_before_deploy: true         preview_before_deploy: true
+          preview_before_deploy: true
