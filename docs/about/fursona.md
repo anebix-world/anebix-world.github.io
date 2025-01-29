@@ -2,9 +2,9 @@ This is a description about my sona/myself.
 
 ## Dimensions
 - **Height**: 170cm, 5ft7in
-- **Chest**:
+<!-- - **Chest**:
 - **Waist**:
-- **Hips**:
+- **Hips**: -->
 - **Tail**: 170cm X 30cm, 5ft7in X 1ft[^~]
 - **Wingspan**: 254cm, 8ft4in
 - **Weight**: 59kg, 130lbs
@@ -31,7 +31,9 @@ This is a description about my sona/myself.
 ### Head
 - Large, furred ears
 - Slightly curved back horns
-- 
+#### Face
+- Thin, clear whiskers
+- Lots of cheek fluff
 
 [^~]:
     Approximated or unsure
