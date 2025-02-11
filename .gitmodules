@@ -1,0 +1,3 @@
+[submodule "docs/my-android-workflow"]
+	path = docs/my-android-workflow
+	url = https://github.com/anebix-world/my-android-workflow.git
