@@ -15,10 +15,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    steps:
       - name: Delay for 15 seconds
         run: sleep 15s
 
-    steps:
       - name: Check out gh-pages branch
         uses: actions/checkout@v4
         with:
