@@ -3,6 +3,8 @@ repo_url: https://github.com/anebix-world/anebix-world.github.io
 repo_name: Contribute!
 
 theme:
+  logo: assets/icon.png
+  favicon: assets/favicon.png
   palette:
 
     # Palette toggle for automatic mode
