@@ -7,7 +7,7 @@ This is a description about my sona/myself.
 - **Hips**: -->
 - **Tail**: 170cm X 30cm, 5ft7in X 1ft[^~]
 - **Wingspan**: 254cm, 8ft4in
-- **Weight**: 59kg, 130lbs
+- **Weight**: 59kg, 130lbs (Not including the massive tail)
 ## Colors
 - **Fur**: White
 - **Scales**: Black
